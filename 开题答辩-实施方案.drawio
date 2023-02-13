@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T06:15:17.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="auBNuYqn5JKXICU-8ye9" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T06:30:24.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OnKImL5vX-oDZCM0c55N" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2062" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="k391i1bbLYwzLlHDBWLB-4" value="有源滤波buck-boost电路工作原理分析，确定开关管死区时间、驱动方式、辅助电路、通断规则和极限频率等" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-50" y="250" width="160" height="70" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;有源滤波buck-boost电路工作原理分析，确定开关管死区时间、驱动方式、辅助电路、通断规则和极限频率等&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="20" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-5" value="FIR滤波器零极点设置，根据零极点建立传递函数，得出滤波器时域表达式，并用代码进行算法的实现" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="250" width="160" height="70" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;FIR滤波器零极点设置，根据零极点建立传递函数，得出滤波器时域表达式，并用代码进行算法的实现&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="205" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-8" value="在电压纹波大小与器件开关频率之间的权衡，对不同阶段的纹波进行参数优化，根据实际纹波确定开关策略" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="334" y="250" width="160" height="70" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;在电压纹波大小与器件开关频率之间的权衡，对不同阶段的纹波进行参数优化，根据实际纹波确定开关策略&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="205" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="k391i1bbLYwzLlHDBWLB-9" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-5" target="k391i1bbLYwzLlHDBWLB-8">
           <mxGeometry relative="1" as="geometry">
@@ -19,25 +19,25 @@
             <mxPoint x="230" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-11" value="对整流器与逆变器工作特性分析，直流母线纹波分阶段考虑和频域分析" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-240" y="245" width="160" height="80" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;对整流器与逆变器工作特性分析，直流母线纹波分阶段考虑和频域分析&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="-180" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-13" value="完成最终论文撰写以及验收材料的准备" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-50" y="350" width="160" height="80" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;完成最终论文撰写以及验收材料的准备&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="620" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-14" value="对整体电路进行数学模型构建，模拟加速级电源运行特性进行仿真，在设定条件下模拟实际运行状态" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="250" width="160" height="70" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-14" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;对整体电路进行数学模型构建，模拟加速级电源运行特性进行仿真，在设定条件下模拟实际运行状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="205" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-15" value="开关频率是否低于极限频率" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="535" y="350" width="150" height="80" as="geometry" />
+        <mxCell id="k391i1bbLYwzLlHDBWLB-15" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;开关频率是否&lt;br&gt;低于极限频率&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="390" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="k391i1bbLYwzLlHDBWLB-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-8" target="k391i1bbLYwzLlHDBWLB-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="344" y="295" as="targetPoint" />
             <mxPoint x="310" y="295" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="510" y="285" />
-              <mxPoint x="510" y="285" />
+              <mxPoint x="760" y="275" />
+              <mxPoint x="760" y="275" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -47,62 +47,60 @@
             <mxPoint x="230" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-15" target="k391i1bbLYwzLlHDBWLB-8">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-15" target="k391i1bbLYwzLlHDBWLB-8">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="419.94" y="130" as="sourcePoint" />
             <mxPoint x="499.94" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="414" y="390" />
+              <mxPoint x="780" y="390" />
+              <mxPoint x="550" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-24" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-4" target="k391i1bbLYwzLlHDBWLB-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="160" as="targetPoint" />
-            <mxPoint x="230" y="130" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="k391i1bbLYwzLlHDBWLB-25" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;检测响应时间与纹波是否低于标准&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="410" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-25" value="检测响应时间与纹波是否低于标准" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="350" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-27" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-15" target="k391i1bbLYwzLlHDBWLB-25">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-15" target="k391i1bbLYwzLlHDBWLB-25">
+          <mxGeometry x="0.0003" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="430" y="490" as="sourcePoint" />
-            <mxPoint x="480" y="610" as="targetPoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="480" />
-              <mxPoint x="220" y="480" />
+              <mxPoint x="940" y="560" />
+              <mxPoint x="460" y="560" />
+              <mxPoint x="460" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-28" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-25" target="k391i1bbLYwzLlHDBWLB-5">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-25" target="k391i1bbLYwzLlHDBWLB-5">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint y="450" as="sourcePoint" />
             <mxPoint x="80" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-29" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-11" target="k391i1bbLYwzLlHDBWLB-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-60" y="320" as="targetPoint" />
-            <mxPoint x="-90" y="320" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-80" y="285" />
-              <mxPoint x="-80" y="285" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-31" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-25" target="k391i1bbLYwzLlHDBWLB-13">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-25" target="k391i1bbLYwzLlHDBWLB-13">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="350" y="540" as="sourcePoint" />
             <mxPoint x="-40" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="390" />
-              <mxPoint x="130" y="390" />
+              <mxPoint x="174" y="550" />
+              <mxPoint x="174" y="620" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k391i1bbLYwzLlHDBWLB-33" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="173.16999999999996" y="205" as="targetPoint" />
+            <mxPoint x="173.16999999999996" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k391i1bbLYwzLlHDBWLB-34" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-11" target="k391i1bbLYwzLlHDBWLB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.99999999999994" y="-65" as="targetPoint" />
+            <mxPoint x="439.99999999999994" y="-110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
