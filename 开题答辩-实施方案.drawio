@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T06:30:24.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OnKImL5vX-oDZCM0c55N" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T06:34:30.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Lu9M2vLxU27vNti5pI-r" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2100" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="k391i1bbLYwzLlHDBWLB-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;有源滤波buck-boost电路工作原理分析，确定开关管死区时间、驱动方式、辅助电路、通断规则和极限频率等&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;有源滤波buck-boost电路工作原理分析，确定开关管死区时间、驱动方式、辅助电路、通断规则和极限频率等&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="14" y="20" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;FIR滤波器零极点设置，根据零极点建立传递函数，得出滤波器时域表达式，并用代码进行算法的实现&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;FIR滤波器零极点设置，根据零极点建立传递函数，得出滤波器时域表达式，并用代码进行算法的实现&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="14" y="205" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;在电压纹波大小与器件开关频率之间的权衡，对不同阶段的纹波进行参数优化，根据实际纹波确定开关策略&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;在电压纹波大小与器件开关频率之间的权衡，对不同阶段的纹波进行参数优化，根据实际纹波确定开关策略&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="205" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="k391i1bbLYwzLlHDBWLB-9" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-5" target="k391i1bbLYwzLlHDBWLB-8">
@@ -19,16 +19,16 @@
             <mxPoint x="230" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;对整流器与逆变器工作特性分析，直流母线纹波分阶段考虑和频域分析&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;对整流器与逆变器工作特性分析，直流母线纹波分阶段考虑和频域分析&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="14" y="-180" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;完成最终论文撰写以及验收材料的准备&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;完成最终论文撰写以及验收材料的准备&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="14" y="620" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-14" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;对整体电路进行数学模型构建，模拟加速级电源运行特性进行仿真，在设定条件下模拟实际运行状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-14" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;对整体电路进行数学模型构建，模拟加速级电源运行特性进行仿真，在设定条件下模拟实际运行状态&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="205" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-15" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;开关频率是否&lt;br&gt;低于极限频率&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-15" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;开关频率是否&lt;br&gt;低于极限频率&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="390" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="k391i1bbLYwzLlHDBWLB-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-8" target="k391i1bbLYwzLlHDBWLB-14">
@@ -58,7 +58,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k391i1bbLYwzLlHDBWLB-25" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;检测响应时间与纹波是否低于标准&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k391i1bbLYwzLlHDBWLB-25" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;检测响应时间与纹波是否低于标准&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;spacingTop=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="14" y="410" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="k391i1bbLYwzLlHDBWLB-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k391i1bbLYwzLlHDBWLB-15" target="k391i1bbLYwzLlHDBWLB-25">
